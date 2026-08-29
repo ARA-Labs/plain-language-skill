@@ -19,10 +19,10 @@ one pass.**
 
 Each SKILL.md has three parts:
 
-- **Four root causes of jargon** — the writing-time impulses that produce
-  it (forgetting the reader doesn't know; letting working shorthand leak
-  into the text; coining a term to compress a sentence; trying to sound
-  professional) — so you can catch it at the source instead of playing
+- **Four root causes of jargon.** The writing-time impulses that produce
+  it: forgetting the reader doesn't know, letting working shorthand leak
+  into the text, coining a term to compress a sentence, and trying to
+  sound professional. Catching these at the source beats playing
   whack-a-mole with word blacklists.
 - **19 rules** in four groups: words, sentences, structure, numbers and
   evidence. Each rule is one or two lines with a before/after example.
@@ -30,10 +30,10 @@ Each SKILL.md has three parts:
   two-sweep habit: obvious codenames fall in the first pass; half-jargon
   only shows up in the second.
 
-The rules are distilled from pre-LLM classics — Orwell's "Politics and the
-English Language" (1946), Feynman's appendix to the Challenger report
-(1986), the U.S. Federal Plain Language Guidelines (2011), and Cloudflare's
-2019 outage postmortem — plus lessons from rewriting real jargon-heavy
+The rules are distilled from pre-LLM classics (Orwell's "Politics and the
+English Language" of 1946, Feynman's appendix to the Challenger report of
+1986, the U.S. Federal Plain Language Guidelines of 2011, and Cloudflare's
+2019 outage postmortem) plus lessons from rewriting real jargon-heavy
 evaluation reports. The distillation is complete: day-to-day writing needs
 none of the sources open.
 

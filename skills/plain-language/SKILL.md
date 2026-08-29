@@ -2,7 +2,7 @@
 name: plain-language
 description: >-
   Plain-language writing standard. Load before writing anything meant for
-  human readers — reports, summaries, design docs, emails, READMEs, UI copy.
+  human readers (reports, summaries, design docs, emails, READMEs, UI copy).
   Write by these rules, then run the self-check.
   TRIGGERS: plain language, write a report, write a summary, write it up,
   nobody can read this
@@ -11,29 +11,28 @@ description: >-
 # Plain Language
 
 The single standard for all writing: **a smart reader with zero background
-understands it in one pass.** This has nothing to do with whether the piece
-will be published. It is a yardstick for clarity: prose an outsider can read
-is easier for every reader. You write to make things clear, not to sound
-professional.
+understands it in one pass.** Use this yardstick whether or not the piece
+will ever be published, because prose an outsider can read is easier for
+every reader. You write to make things clear, not to sound professional.
 
 ## Where jargon comes from (diagnose first, then apply rules)
 
-Jargon is not a vocabulary problem. It grows out of four bad impulses at the
-moment of writing. Check yourself against them before you start:
+Jargon grows out of four bad impulses at the moment of writing. Check
+yourself against them before you start:
 
 1. **You forgot the reader doesn't know.** You have lived with this work so
    long you can no longer tell which words an outsider won't understand.
    Antidote: reread the draft through the eyes of someone on their first day.
-2. **Working vocabulary leaks out.** The shorthand you coined while working —
-   variable names, version numbers, internal metric names, batch codenames —
-   is a private speed-writing system, not language for readers. Antidote:
-   before shipping, translate each one into the thing it refers to.
+2. **Working vocabulary leaks out.** The shorthand you coined while working
+   (variable names, version numbers, internal metric names, batch codenames)
+   is private speed-writing that readers have never seen. Antidote: before
+   shipping, translate each one into the thing it refers to.
 3. **The urge to compress.** Coining a new term to replace a sentence feels
    "efficient." A report is not code: readers would rather see the same plain
    sentence three times than memorize your new terminology.
 4. **The urge to sound professional.** Big words, formal phrasing, and trade
-   talk make text look like a "proper report." That serves the writer's
-   dignity, not the reader's understanding.
+   talk make text look like a "proper report." Writing that way protects the
+   author's dignity while it costs the reader understanding.
 
 ## Rules
 
@@ -90,20 +89,20 @@ moment of writing. Check yourself against them before you start:
 
 16. **Every number gets context.** Compared to what, good or bad, and what
     the gap means. "A 30% success rate" is indigestible; "retries succeeded
-    30% of the time, against a usual 18% — the persistence paid off" is a
+    30% of the time, against a usual 18%, so the persistence paid off" is a
     statement.
-17. **State facts, not labels.** A codename or a bare score carries no
-    information; the concrete thing behind it does. "Metric A = 0.83" says
-    nothing; "after a failure, it changed course 99% of the time" says
-    something.
+17. **State facts, not labels.** The concrete thing behind a codename or a
+    bare score is what carries the information. "Metric A = 0.83" tells the
+    reader nothing; "after a failure, it changed course 99% of the time"
+    tells them what happened.
 18. **Analogies explain; they never name.** Using everyday experience to
     help a reader grasp an unfamiliar idea is good. Coining a nickname and
     using it as a term is not (see rule 4).
 19. **State limits and exceptions plainly.** Write "we only have four
     subjects, so these things happened together but we can't say which
     caused which," not "n=4, correlational." When you quote someone's vague
-    claim, say in your own words what it actually means; never pass
-    vagueness along as if it were content.
+    claim, say in your own words what it actually means instead of passing
+    the vagueness along.
 
 ## Self-check before shipping
 
@@ -118,9 +117,9 @@ Sweep the full text and ask of each sentence:
 6. Could I read this paragraph aloud to an uninvolved, intelligent person?
    → If not, rewrite it.
 
-**Sweep twice.** The first pass catches obvious codenames. Half-jargon —
-trade shorthand standing in for a full sentence ("rollback-and-pivot,"
-"correlational not causal") — only shows up on the second pass.
+**Sweep twice.** The first pass catches obvious codenames. Half-jargon only
+shows up on the second pass: trade shorthand standing in for a full
+sentence, like "rollback-and-pivot" or "correlational, not causal."
 Finally, read the whole piece aloud in your head: a sentence that sounds
 awkward spoken is a sentence written badly.
 
