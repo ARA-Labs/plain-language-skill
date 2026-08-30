@@ -1,5 +1,5 @@
 {
-  "name": "@ara-labs/plain-language-skill",
+  "name": "@ara-commons/plain-language-skill",
   "version": "0.1.0",
   "description": "Install plain-language writing skills for AI coding agents.",
   "license": "CC-BY-4.0",

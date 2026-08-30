@@ -34,7 +34,7 @@ function targetDirectories(home = homeDirectory()) {
 }
 
 function usage() {
-  return `Usage: npx @ara-labs/plain-language-skill [options]
+  return `Usage: npx @ara-commons/plain-language-skill [options]
 
 Install the English and Chinese plain-language skills for an AI coding agent.
 
@@ -46,9 +46,9 @@ Options:
   -h, --help            show this help text
 
 Examples:
-  npx @ara-labs/plain-language-skill
-  npx @ara-labs/plain-language-skill --target codex --language zh
-  npx @ara-labs/plain-language-skill --target all --dry-run`;
+  npx @ara-commons/plain-language-skill
+  npx @ara-commons/plain-language-skill --target codex --language zh
+  npx @ara-commons/plain-language-skill --target all --dry-run`;
 }
 
 function fail(message) {

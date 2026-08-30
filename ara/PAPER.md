@@ -3,7 +3,7 @@
 ## Purpose
 
 Record the decisions and checks involved in packaging this repository as an
-independent npm installer.
+independent npm installer in the ARA Commons organization.
 
 ## Layers
 

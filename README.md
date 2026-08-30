@@ -43,7 +43,7 @@ none of the sources open.
 Run this from any directory:
 
 ```bash
-npx @ara-labs/plain-language-skill
+npx @ara-commons/plain-language-skill
 ```
 
 The installer detects supported agents on your machine and installs both
@@ -54,22 +54,22 @@ Choose the agent or language when needed:
 
 ```bash
 # Install only the Chinese skill for Codex
-npx @ara-labs/plain-language-skill --target codex --language zh
+npx @ara-commons/plain-language-skill --target codex --language zh
 
 # Preview every destination without changing files
-npx @ara-labs/plain-language-skill --target all --dry-run
+npx @ara-commons/plain-language-skill --target all --dry-run
 ```
 
 Supported targets are `claude`, `codex`, `cursor`, `gemini`, and `all`.
 For a global command instead of `npx`:
 
 ```bash
-npm install --global @ara-labs/plain-language-skill
+npm install --global @ara-commons/plain-language-skill
 plain-language-skill --target codex
 ```
 
-This is a standalone package. Its name and release process are separate from
-`@ara-commons/ara-skills`.
+This is a standalone package in the `@ara-commons` organization. Its name and
+release process are separate from `@ara-commons/ara-skills`.
 
 ## Manual install
 
