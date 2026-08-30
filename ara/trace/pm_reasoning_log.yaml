@@ -1,0 +1,5 @@
+entries:
+  - turn: "2026-08-30_001#1"
+    notes:
+      - "Routed the independent-package choice as a decision because it fixes the implementation direction."
+      - "Routed test and package-validation output as an experiment; no generalizable claim was asserted, so no observation was staged."

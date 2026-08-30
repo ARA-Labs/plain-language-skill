@@ -1,0 +1,42 @@
+{
+  "name": "@ara-labs/plain-language-skill",
+  "version": "0.1.0",
+  "description": "Install plain-language writing skills for AI coding agents.",
+  "license": "CC-BY-4.0",
+  "keywords": [
+    "ai-agent",
+    "agent-skills",
+    "claude-code",
+    "codex",
+    "plain-language",
+    "writing"
+  ],
+  "homepage": "https://github.com/ARA-Labs/plain-language-skill#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ARA-Labs/plain-language-skill.git"
+  },
+  "bugs": {
+    "url": "https://github.com/ARA-Labs/plain-language-skill/issues"
+  },
+  "bin": {
+    "plain-language-skill": "bin/plain-language-skill.cjs"
+  },
+  "files": [
+    "bin",
+    "skills",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "check": "npm test && npm pack --dry-run",
+    "prepublishOnly": "npm run check"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

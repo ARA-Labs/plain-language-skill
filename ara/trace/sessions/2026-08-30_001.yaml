@@ -1,0 +1,46 @@
+session:
+  id: "2026-08-30_001"
+  date: "2026-08-30"
+  started: "2026-08-30T05:49"
+  last_turn: "2026-08-30T05:49"
+  turn_count: 1
+  summary: "Created and validated an independent npm installer for the plain-language skills."
+
+events_logged:
+  - turn: 1
+    type: decision
+    id: "N01"
+    routing: direct
+    provenance: ai-suggested
+    summary: "Chose standalone package @ara-labs/plain-language-skill."
+  - turn: 1
+    type: experiment
+    id: "N02"
+    routing: direct
+    provenance: ai-executed
+    summary: "Tests, package whitelist, and fresh npm install smoke test passed."
+
+ai_actions:
+  - turn: 1
+    action: "Added npm metadata, standalone installer, tests, documentation, CI, and publish workflow; ran validation."
+    provenance: ai-executed
+    files_changed:
+      - "package.json"
+      - "bin/plain-language-skill.cjs"
+      - "test/installer.test.cjs"
+      - "README.md"
+      - ".github/workflows/ci.yml"
+      - ".github/workflows/publish.yml"
+      - ".gitignore"
+
+claims_touched: []
+logic_revisions: []
+
+key_context:
+  - turn: 1
+    excerpt: "User asked for a more standardized repository that can be installed with npm and must not mix with the reference project's package."
+
+open_threads:
+  - "Publish version 0.1.0 from GitHub Actions after setting the NPM_TOKEN environment secret for the @ara-labs npm organization."
+
+ai_suggestions_pending: []

@@ -1,0 +1,8 @@
+sessions:
+  - id: "2026-08-30_001"
+    date: "2026-08-30"
+    summary: "Created and validated an independent npm installer for the plain-language skills."
+    turn_count: 1
+    events_count: 2
+    claims_touched: []
+    open_threads: 1

@@ -1,0 +1,26 @@
+tree:
+  - id: N01
+    type: decision
+    title: "Use an independent npm package"
+    provenance: ai-suggested
+    timestamp: "2026-08-30T05:49"
+    choice: "Package the skills as @ara-labs/plain-language-skill, separate from @ara-commons/ara-skills."
+    alternatives:
+      - "Reuse the reference project's package or namespace"
+      - "Keep manual curl installation only"
+    evidence:
+      - "User requested an npm-installable repository that does not mix with the reference package."
+    status: resolved
+    also_depends_on: []
+  - id: N02
+    type: experiment
+    title: "Validate package contents and installer behavior"
+    provenance: ai-executed
+    timestamp: "2026-08-30T05:49"
+    result: "Three installer tests passed; npm pack --dry-run included six intended files; a fresh temporary npm install copied the English skill to the Cursor destination."
+    evidence:
+      - "npm test output from 2026-08-30"
+      - "npm pack --dry-run output from 2026-08-30"
+      - "Temporary npm install smoke test output from 2026-08-30"
+    status: resolved
+    also_depends_on: [N01]

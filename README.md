@@ -1,7 +1,8 @@
-# plain-language
+# Plain Language Skills
 
-A Claude Code skill that makes your reports readable by people with zero
-project background. Available in English and Chinese (说人话).
+Writing skills that make reports readable by people with zero project
+background. Available in English and Chinese (说人话), and packaged for
+Claude Code, Codex, Cursor, and Gemini CLI.
 
 ## What problem it solves
 
@@ -37,7 +38,40 @@ English Language" of 1946, Feynman's appendix to the Challenger report of
 evaluation reports. The distillation is complete: day-to-day writing needs
 none of the sources open.
 
-## Install
+## Install with npm
+
+Run this from any directory:
+
+```bash
+npx @ara-labs/plain-language-skill
+```
+
+The installer detects supported agents on your machine and installs both
+skills. If it cannot find one, it installs them for Codex by default. It never
+overwrites an existing skill unless you add `--force`.
+
+Choose the agent or language when needed:
+
+```bash
+# Install only the Chinese skill for Codex
+npx @ara-labs/plain-language-skill --target codex --language zh
+
+# Preview every destination without changing files
+npx @ara-labs/plain-language-skill --target all --dry-run
+```
+
+Supported targets are `claude`, `codex`, `cursor`, `gemini`, and `all`.
+For a global command instead of `npx`:
+
+```bash
+npm install --global @ara-labs/plain-language-skill
+plain-language-skill --target codex
+```
+
+This is a standalone package. Its name and release process are separate from
+`@ara-commons/ara-skills`.
+
+## Manual install
 
 English:
 
